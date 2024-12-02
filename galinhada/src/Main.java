@@ -22,21 +22,7 @@ public class Main {
         angola.exibirInformacoes();
         System.out.println();
         galinho.exibirInformacoes();
-
-        //criando os ninhos
-        Ninho ninho1 = new Ninho("Palha", 0);
-        Ninho ninho2 = new Ninho("Aço Inox", 0);
-
-        //colocando as 2 galinhas nos seus ninhos
-        pintadinha.setNinho(ninho1);
-        angola.setNinho(ninho2);
-        //adicionando os ovos dela por semana no ninho
-        pintadinha.colocarOvos();
-        angola.colocarOvos();
-        //exibe o ninho
-        System.out.println(ninho1);
-        System.out.println(ninho2);
-
+        System.out.println();
         //criando um galinheiro
         Galinheiro galinheiro = new Galinheiro();
 

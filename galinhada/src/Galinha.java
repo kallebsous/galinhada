@@ -8,6 +8,8 @@ class Galinha {
     public Galinha(String nome, int ovosPorSemana) {
         this.nome = nome;
         this.ovosPorSemana = ovosPorSemana;
+        this.ninho = new Ninho("Palha", 0);
+        colocarOvos();
     }
 
     public Ninho getNinho() {
@@ -42,6 +44,7 @@ class Galinha {
     public void exibirInformacoes() {
         System.out.println("Nome: " + nome);
         System.out.println("Ovos por semana: " + ovosPorSemana);
+        System.out.println("Ninho: " + ninho);
     }
 
     //método para incrementar os ovos por semana no ninho
